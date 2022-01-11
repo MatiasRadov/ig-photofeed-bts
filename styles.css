@@ -1,0 +1,15 @@
+body{
+    background: #F5F6F7;
+  }
+  p{
+      padding-left: 20px;
+  }
+  .likes{
+      padding-top: 10px; font-weight: bold;
+  }
+  .float-right{
+      padding-right: 20px;
+  }
+  .float-left{
+      padding-left: 20px;
+  }

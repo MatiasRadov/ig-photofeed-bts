@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"></link>
+    <link rel="stylesheet" href="styles.css"></link>
+    
+    <title>Instagram Post with Bootstrap</title>
+    <script src="https://kit.fontawesome.com/98d0adabd5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background: #F5F6F7;">
+            <div class="col-8 pl-5">
+                <i class="fab fa-instagram mt-2 pr-2" style="font-size: 40px;"></i>
+                <img src="https://www.pngkey.com/png/full/717-7177939_designed-by-gage-the-designer.png" width= 20% alt=""></img>
+            </div>
+    
+            <div class="col-2">
+                    
+                    <button type="button" class="btn btn-success mt-2 float-right" data-toggle="modal" data-target="#exampleModal">
+                        Create a new post
+                    </button>
+                    
+                    
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                    
+                        <div class="modal-header">
+                            
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"></span>
+                                </div>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>        
+                        </div>
+                        
+                          <div class="modal-body">
+                            <i class="fas fa-camera"></i>
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+                          
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-success">Publish</button>
+                          </div>
+    
+                        </div>
+                        </div>
+                    </div>
+            </div>
+    
+                <div class="col-2">
+                    <div class="dropdown mt-2">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+    
+        </div>
+            
+            <nav class="navbar navbar-light bg-light">
+                    <div class="col-6">
+                        <a class="navbar-brand float-right" href="index2.html">
+                            <i class="fas fa-th"></i>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a class="navbar-brand float-left" href="index.html">
+                            <i class="fas fa-square" style="font-size: 10px;"></i>
+                        </a>
+                    </div>
+            </nav>
+    
+            
+    
+        <div class="row">
+            <div class="col-sm-3 mt-5">
+    
+            </div>
+            <div class="col-sm-6 mt-5" style="background: white; padding: 0;">
+                <h3 style="background: white; padding: 10px;">My first photo</h3>
+                <img class="card-img-top" width="100%" height="600px" src="https://picsum.photos/id/237/200/300" alt="Card image cap">
+                <p class="likes">23 Likes</p>
+                <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with #BreathCode</p>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="float-left">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-2">
+                        <p>Comments...</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="float-right">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-3 mt-5">
+            </div>
+    
+            
+    
+            <div class="col-sm-3 mt-5">
+            </div>
+    
+            <div class="col-sm-6 mt-5" style="background: white; padding: 0;">
+                <h3 style="background: white; padding: 10px;">My first photo</h3>
+                <img class="card-img-top" width="100%" src="https://picsum.photos/id/1025/4951/3301" alt="Card image cap">
+                <p class="likes">23 Likes</p>
+                <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with #BreathCode</p>
+                
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="float-left">
+                            <i class="far fa-heart"></i>
+                        </div>               
+                    </div>
+                    <div class="col-sm-2">
+                        <p>Comments...</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="float-right">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-3 md mt-5">
+            </div>
+    
+                
+    
+            <div class="col-sm-3 mt-5">
+            </div>
+        
+            <div class="col-sm-6 mt-5" style="background: white; padding: 0;">
+                <h3 style="background: white; padding: 10px;">My first photo</h3>
+                <img class="card-img-top" width="100%" src="https://picsum.photos/id/1/5616/3744" alt="Card image cap">
+                <p class="likes">23 Likes</p>
+                <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with #BreathCode</p>
+                
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="float-left">
+                            <i class="far fa-heart"></i>
+                        </div>               
+                    </div>
+                    <div class="col-sm-2">
+                        <p>Comments...</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="float-right">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-sm-3 mt-5">
+            </div>
+    
+                
+    
+            <div class="col-sm-3 mt-5 mb-5">
+            </div>
+        
+            <div class="col-sm-6 md mt-5 mb-5" style="background: white; padding: 0;">
+                <h3 style="background: white; padding: 10px;">My first video</h3>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9Lpxzhzjy9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <p class="likes">23 Likes</p>
+                <p>This is my first video of the feed. this is a multi line comment for testing purposes. I am learning to code with #BreathCode</p>
+                
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="float-left">
+                            <i class="far fa-heart"></i>
+                        </div>               
+                    </div>
+                    <div class="col-sm-2">
+                        <p>Comments...</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="float-right">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-sm-3 mt-5 mb-5">
+            </div>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </div>
+    
+</body>
+</html>
